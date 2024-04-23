@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.liberary{
+    width: 100%;
+    height: 600px;
+}
+.better>h2{
+    color: green;
+    margin-top: -130px;
+}
+.better>h1{
+    color: white;
+    font-size: 50px;
+}
+.better{
+    margin-left: 100px;
+}
+.leader{
+  display: flex;
+    margin-top: 40px;
+}
+.leader>img{
+    width: 600px;
+    height: 400px;
+   
+}
+.message>p{
+  font-size: x-large;
+  margin-top: 50px;
+  width: 700px;
+  height: 100px;
+  margin-left: 20px;
+  text-align: justify;
+}
+.message>h1{
+    margin-left: 20px;
+}
+.message>a{
+    margin-left: 25px;
+   
+    font-size: xx-large;
+   
+}
+
+.manchu>img{
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+   
+}
+.manchu{
+    display:flex;
+    margin-top: 40px; 
+    
+}
+.vishnu>p{
+    font-size: x-large;
+    margin-top: 50px;
+    width: 550 px;
+    height: 150px;
+    margin-left: 20px;
+    text-align: justify;
+    /* background-color: gray; */
+    
+}
+.vishnu>h1{
+    margin-left:25px;
+}
+.vishnu>a{
+    margin-left: 30px;
+    font-size: xx-large;
+    
+}
+.vice{
+    display: flex;
+      margin-top: 40px;
+  }
+.vice>img{
+      width: 600px;
+      height: 400px;
+  }
+.Chancellor>p{
+    font-size: x-large;
+    margin-top: 50px;
+    width: 500px;
+    height: 150px;
+    margin-left: 20px;
+    text-align: justify;
+ }
+.Chancellor>h1{
+      margin-left: 20px;
+ }
+.Chancellor>a{
+      margin-left: 25px;
+      margin-top: -100px;
+      font-size: xx-large;
+}
+.commerce>img{
+    width: 1000px;
+    height: 400px;
+    margin-left: 100px;
+   
+}
+.commerce{
+    display:flex;
+    margin-top: 40px; 
+    
+}
+.saradhi>p{
+    font-size: x-large;
+    margin-top: 50px;
+    width: 530px;
+    height: 120px;
+    margin-left: 20px;
+    text-align: justify;
+} 
+.saradhi>h1{
+    margin-left:25px;
+}
+.saradhi>a{
+   margin-left: 25px;
+    font-size: xx-large;
+}
+
+
+
+/* media quires laptop */
+
+ @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    
+    .better {
+        text-align: center;
+    }
+    .leader, .manchu, .vice, .commerce {
+        display: flex;
+        /* flex-direction: row; */
+        align-items: center;
+    }
+    .message, .vishnu, .Chancellor, .saradhi {
+        margin: 20px;
+    }
+    img {
+        width: 100%;
+        height: 300px;
+    }
+    .liberary{
+        width: 1600px;
+        height: 1000px;
+    }
+    .vishnu>p{
+        width: 600px;
+        display: block;
+        height: 200px;
+    }
+    .manchu>img{
+      margin-top: 100px;
+     margin-left: 400px;
+    }
+}
+/* media quires tablet  */
+@media only screen and (min-width: 426px) and (max-width: 769px) {
+    
+    
+    .better {
+        text-align: center;
+    }
+    .leader, .manchu, .vice, .commerce {
+        display: flex;
+        /* flex-direction: row; */
+        align-items: center;
+    }
+    .message, .vishnu, .Chancellor, .saradhi {
+        margin: 20px;
+    }
+    img {
+        width: 0px;
+        height: 400px;
+    }
+    .vice>img{
+        margin-top: 150px;
+    }
+    .Chancellor>p>{
+        margin-top: 300px;
+    }
+    .liberary{
+        width: 1350px;
+        height: 1000px;
+    }
+    .vishnu>p{
+        width: 1500px;
+        display: block;
+       /* height: 400px; */
+        }
+}
+/* media quires mobile */
+@media only screen and (max-width: 426px) {
+    
+    
+    .better {
+        text-align: center;
+    }
+    .leader, .manchu, .vice, .commerce {
+        display: flex;
+        /* flex-direction: row; */
+        align-items: center;
+    }
+    .message, .vishnu, .Chancellor, .saradhi {
+        margin: 20px;
+    }
+    img {
+        width:100%;
+        height: 300px;
+    }
+    .saradhi>img{
+     margin-top:px ;
+    }
+    .vice>img{
+        margin-top: 100px;
+    }
+    .manchu>img{
+        margin-top: 100px;
+        margin-left: 400px;
+    }
+    .Chancellor>p>{
+        margin-top:-400px;
+    }
+    .vishnu>p{
+    width: 400px;
+    display: block;
+    }
+    .read{
+        margin-top: 1000px;
+    }
+    .liberary{
+        width: 1350px;
+        height: 1000px;
+    }
+    .better>h2{
+        margin-top: px;
+    }
+}
+
+

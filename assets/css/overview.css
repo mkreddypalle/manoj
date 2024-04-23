@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.photo{
+    width: 100%;
+    height: 600px;
+}
+.know{
+    margin-top:-100px;
+    margin-left: 100px;
+}
+.know>h2{
+    color: green;
+}
+.know>h1{
+    color: white; 
+}
+.home{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    margin-left: -500px;
+}
+.babu>img{
+    width: 400px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.babu{
+    display: flex; 
+}
+ 
+.para{
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: large;
+    line-height: 30px;
+}
+.paraone{
+   
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: large;
+    line-height: 30px;
+    
+}
+.government>img{
+     height: 40px;
+     margin-left: 500px;
+     padding-top: 3px;
+     margin-top: -500px;
+}
+.name{
+    margin-left: 50px;
+    margin-top: -100px;
+    line-height: 40px;
+}
+
+.government>a{
+    color: green;
+    font-size: larger;  
+}
+.vision>img{
+    width: 50px;
+    height: 50px;
+    
+}
+.vision>p{
+    width: 300px;
+    height: 100px;
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+    margin-top: 10px;
+    
+}
+.vision>h3{
+    color: green;
+    font-size: 30px;
+}
+.vision{
+    margin-top: 50PX;
+    margin-left: 50px;
+  
+}
+
+.mission>img{
+    width: 70px;
+    height: 70px;
+}
+.mission>p{
+    width: 300px;
+    height: 100px;
+    font-size: larger;
+    color: white;
+    font-size: x-large;
+    text-align: justify;
+    margin-top: 10px;
+}
+.mission>h3{
+    color: green;
+    font-size: 30px;
+}
+.mission{
+    margin-left: 100PX;
+    margin-top: 50PX;
+
+}
+
+.values>img{
+    width: 90px;
+    height: 100px;
+}
+.values>p{
+    width: 300px;
+    height: 100px;
+    font-size: larger;
+    color:white;
+    font-size: x-large;
+    text-align: justify;
+}
+.values>h3{
+    color: green;
+    font-size: 30px;
+}
+.values{
+    margin-left: 160px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.eblock{
+    height: 700px;
+    /* width: 100%; */
+    background-image: url(/assets/uploads/images/mbu\ university\ m-block.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    display: flex;
+    margin-top: 100PX; 
+    margin-left: 50px;
+     
+}
+.manoj{
+    background-color: #182847;
+    width: 100%;
+    opacity: 0.8;
+    display: flex;
+    
+}
+.about{
+    margin-left:-1150px;
+}
+.home>a{
+    margin-left: -650px;
+}
+
+
+
+
+/* media quires laptop */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+   .babu>p{
+    text-align: justify;
+    margin-left: 50px;    
+  }
+
+   .babu>img{
+    margin-left: 10px;
+  }
+  .eblock{
+    margin-top: 400px;
+    width: 1350px;
+  }
+  .photo{
+    width: 1350px;
+    }
+  .government{
+    margin-top: 300px;
+    }
+  .name{
+    margin-top: -800px;
+    }
+}
+
+
+
+/* media quires tablet  */
+@media only screen and (min-width: 426px) and (max-width: 769px) {
+    
+}
